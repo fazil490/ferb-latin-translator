@@ -1,60 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
-body{
+body {
     font-family: 'Satisfy', cursive;
     margin: 0;
 }
 
-:root{
+:root {
     --primary-color: #4caf50;
     --secondary-color: #ff9800;
 }
 
-.nav-bar{
+.nav-bar {
     background-color: var(--primary-color);
     text-align: center;
     height: 3rem;
     padding: 1rem;
 }
 
-.nav-brand{
+.nav-brand {
     color: white;
     font-size: 2rem;
 }
 
-.hero{
+.hero {
     max-width: 300px;
     text-align: center;
     margin: auto;
 }
 
-.hero-image{
+.hero-image {
     padding: 1rem;
     width: 100px;
 }
 
-.hero-heading{
+.hero-heading {
     color: var(--primary-color);
 }
 
-.span-translator{
+.span-translator {
     color: var(--secondary-color);
 }
 
-.container{
+.container {
     max-width: 600px;
     margin: auto;
     text-align: center;
 }
 
-.txt-input{
+.txt-input {
+    color: var(--primary-color);
+    font-family: 'Satisfy', cursive;
+    font-size: large;
+    text-align: center;
     width: 500px;
     height: 10vh;
     padding: 1rem;
     border: 1px solid var(--secondary-color);
 }
 
-.btn-translate{
+.btn-translate {
     margin: 1rem;
     background-color: var(--secondary-color);
     padding: 1rem;
@@ -64,10 +68,14 @@ body{
     border: none;
 }
 
-.output{
+.output {
     color: var(--primary-color);
+    font-size: x-large;
 }
-.txt-output{
+
+.txt-output {
+    font-size: large;
+    color: var(--primary-color);
     width: 500px;
     height: 10vh;
     padding: 1rem;
@@ -75,14 +83,14 @@ body{
     margin: 1rem auto auto auto;
 }
 
-.footer{
+.footer {
     background-color: var(--primary-color);
     text-align: center;
     color: white;
     margin-top: 2rem;
 }
 
-.footer-about{
+.footer-about {
     font-size: large;
     padding: 1rem;
 }
