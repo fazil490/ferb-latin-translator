@@ -42,7 +42,7 @@ body {
 }
 
 .container {
-    max-width: 600px;
+    max-width: 500px;
     margin: auto;
     text-align: center;
 }
@@ -52,8 +52,8 @@ body {
     font-family: 'Satisfy', cursive;
     font-size: large;
     text-align: center;
-    width: 500px;
-    height: 10vh;
+    width: 90%;
+    height: 15vh;
     padding: 1rem;
     border: 1px solid var(--secondary-color);
 }
@@ -76,8 +76,8 @@ body {
 .txt-output {
     font-size: large;
     color: var(--primary-color);
-    width: 500px;
-    height: 10vh;
+    width: 90%;
+    height: 15vh;
     padding: 1rem;
     border: 1px solid var(--secondary-color);
     margin: 1rem auto auto auto;
